@@ -139,7 +139,7 @@
         <section class="flex flex-col-reverse md:flex-row items-center justify-between gap-12 min-h-[80vh]">
             <div class="flex-1 text-center md:text-left reveal active">
                 <div class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-wider text-primary uppercase bg-primary/10 rounded-full border border-primary/20">
-                    Portfolio 2025
+                    Portfolio 2026
                 </div>
                 <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
                     Hi, I'm <br>
@@ -160,17 +160,17 @@
             </div>
 
             <div class="flex-1 flex justify-center reveal active" style="transition-delay: 200ms;">
-                <div class="relative w-64 h-64 md:w-80 md:h-80 animate-float">
+                <div class="relative w-56 h-56 md:w-80 md:h-80 animate-float mx-8">
                     <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-primary to-accent blur-2xl opacity-30"></div>
                     <img src="images/venkatesh_pund.png"
                          alt="Venkatesh Pund" 
                          class="relative w-full h-full object-cover rounded-full border-2 border-slate-700 p-2 bg-card">
                     
-                    <div class="absolute -right-4 top-10 p-3 bg-card rounded-xl border border-slate-700 shadow-xl animate-bounce" style="animation-duration: 3s;">
-                        <i class="fab fa-python text-2xl text-yellow-400"></i>
+                    <div class="absolute -right-2 md:-right-4 top-10 p-2 md:p-3 bg-card rounded-xl border border-slate-700 shadow-xl animate-bounce" style="animation-duration: 3s;">
+                        <i class="fab fa-python text-xl md:text-2xl text-yellow-400"></i>
                     </div>
-                    <div class="absolute -left-4 bottom-10 p-3 bg-card rounded-xl border border-slate-700 shadow-xl animate-bounce" style="animation-duration: 4s;">
-                        <i class="fab fa-vuejs text-2xl text-emerald-400"></i>
+                    <div class="absolute -left-2 md:-left-4 bottom-10 p-2 md:p-3 bg-card rounded-xl border border-slate-700 shadow-xl animate-bounce" style="animation-duration: 4s;">
+                        <i class="fab fa-vuejs text-xl md:text-2xl text-emerald-400"></i>
                     </div>
                 </div>
             </div>
@@ -182,11 +182,16 @@
                     <i class="fas fa-user-astronaut text-primary"></i> About Me
                 </h3>
                 <p class="text-slate-400 leading-relaxed mb-4">
-                    I am a motivated <strong class="text-white">IT professional</strong> pivoting from Civil Engineering to Tech. 
-                    I specialize in <span class="text-primary">Full Stack Development</span> and Automation.
+                    I am a passionate <strong class="text-white">Junior Python Developer</strong> who successfully transitioned from Civil Engineering into Software Development.
+                    I specialize in <span class="text-primary">Python, Django, React, PostgreSQL and Full Stack Development</span>.
+                </p>
+                <p class="text-slate-400 leading-relaxed mb-4">
+                    Currently working at Digikore Studios, where I contribute to the development and enhancement of the employee onboarding platform,
+                    building scalable backend services, APIs and workflow automation solutions.
                 </p>
                 <p class="text-slate-400 leading-relaxed">
-                    Passionate about leveraging technology to streamline operations, from building responsive UIs with Vue.js to automating workflows with Python.
+                    I enjoy solving business problems through technology, creating efficient applications, automating repetitive processes,
+                    and continuously learning modern development practices to deliver impactful solutions.
                 </p>
             </div>
 
@@ -197,21 +202,33 @@
                 </h3>
                 
                 <div class="relative border-l border-slate-700 pl-6 ml-2">
+
+                    <div class="mb-6">
+                        <div class="absolute -left-[5px] w-2.5 h-2.5 rounded-full bg-primary mt-2"></div>
+                        <h4 class="text-lg font-bold text-white">Junior Python Developer</h4>
+                        <div class="text-primary text-sm mb-2">Digikore Studios | Mar 2025 - Present</div>
+                        <p class="text-slate-400 text-sm">
+                            Developing and maintaining the employee onboarding platform using Python, Django, React and PostgreSQL.
+                            Responsible for backend development, API integrations, workflow automation and system enhancements.
+                        </p>
+                    </div>
+
                     <div class="mb-6 last:mb-0">
                         <div class="absolute -left-[5px] w-2.5 h-2.5 rounded-full bg-primary mt-2"></div>
                         <h4 class="text-lg font-bold text-white">IO Technician</h4>
-                        <div class="text-primary text-sm mb-2">Digikore Studios | 2024 - Present</div>
+                        <div class="text-primary text-sm mb-2">Digikore Studios | 2024 - Feb 2025</div>
                         <p class="text-slate-400 text-sm">
-                            Managed data ops & pipelines. Implemented efficiency tools using <strong class="text-white">VueScript & JS</strong>.
+                            Managed production data operations and pipelines while improving team productivity through automation and internal tools.
                         </p>
                     </div>
+
                 </div>
             </div>
         </section>
 
         <section id="projects" class="mb-24 reveal">
             <h2 class="text-3xl font-bold mb-10 text-center">Featured Projects</h2>
-            <div class="grid md:grid-cols-3 gap-6">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 
                 <div class="tech-card p-6 flex flex-col h-full group">
                     <div class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center text-blue-400 mb-4 group-hover:scale-110 transition-transform">
@@ -245,6 +262,23 @@
                     <p class="text-slate-400 text-sm mb-4 flex-grow">Full-stack web app designed to streamline employee onboarding process (Ongoing).</p>
                     <div class="flex gap-2 text-xs font-mono text-primary">
                         <span class="bg-primary/10 px-2 py-1 rounded">Python</span>
+                        <span class="bg-primary/10 px-2 py-1 rounded">PostgreSQL</span>
+                    </div>
+                </div>
+
+                <div class="tech-card p-6 flex flex-col h-full group relative overflow-hidden">
+                    <div class="absolute top-3 right-3 px-2 py-0.5 rounded-full bg-primary/10 border border-primary/30 text-primary text-xs font-bold tracking-wide">
+                        Project Lead
+                    </div>
+                    <div class="w-12 h-12 bg-rose-500/20 rounded-lg flex items-center justify-center text-rose-400 mb-4 group-hover:scale-110 transition-transform">
+                        <i class="fas fa-chart-bar text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Production Tracker</h3>
+                    <p class="text-slate-400 text-sm mb-4 flex-grow">Tracks production progress across all shows end-to-end. Leading the project with full ownership of architecture, backend and delivery pipeline.</p>
+                    <div class="flex flex-wrap gap-2 text-xs font-mono text-primary">
+                        <span class="bg-primary/10 px-2 py-1 rounded">React</span>
+                        <span class="bg-primary/10 px-2 py-1 rounded">Python</span>
+                        <span class="bg-primary/10 px-2 py-1 rounded">Django</span>
                         <span class="bg-primary/10 px-2 py-1 rounded">PostgreSQL</span>
                     </div>
                 </div>
@@ -283,48 +317,28 @@
         <section id="education" class="mb-24 reveal">
             <h2 class="text-3xl font-bold mb-10 text-center">Journey & Recognition</h2>
             
-            <div class="grid md:grid-cols-12 gap-6 items-start">
-                
-                <div class="md:col-span-7 flex flex-col gap-6">
-                    <div class="tech-card p-8 h-fit">
-                        <h3 class="text-xl font-bold mb-6 flex items-center gap-2 text-white">
-                            <i class="fas fa-graduation-cap text-primary"></i> Education History
-                        </h3>
-                        
-                        <div class="relative border-l border-slate-700 pl-6 pb-8 last:pb-0">
-                            <div class="absolute -left-[5px] w-2.5 h-2.5 rounded-full bg-primary mt-2"></div>
-                            <h4 class="text-lg font-bold text-white">B.Tech in Civil Engineering</h4>
-                            <div class="text-slate-400 text-sm">Matoshree Pratishthan College | 2019 - 2022</div>
-                            <div class="mt-2 text-primary text-sm font-mono">CGPI: 9.03</div>
-                        </div>
+            <!-- Top row: Education (wide) + Certifications -->
+            <div class="grid md:grid-cols-5 gap-6 mb-6 items-start">
 
-                        <div class="relative border-l border-slate-700 pl-6">
-                            <div class="absolute -left-[5px] w-2.5 h-2.5 rounded-full bg-slate-500 mt-2"></div>
-                            <h4 class="text-lg font-bold text-white">Diploma in Civil Engineering</h4>
-                            <div class="text-slate-400 text-sm">MSBTE | 2016 - 2019</div>
-                            <div class="mt-2 text-primary text-sm font-mono">Percentage: 68.67%</div>
-                        </div>
+                <div class="md:col-span-3 tech-card p-8 h-fit">
+                    <h3 class="text-xl font-bold mb-6 flex items-center gap-2 text-white">
+                        <i class="fas fa-graduation-cap text-primary"></i> Education History
+                    </h3>
+                    <div class="relative border-l border-slate-700 pl-6 pb-8">
+                        <div class="absolute -left-[5px] w-2.5 h-2.5 rounded-full bg-primary mt-2"></div>
+                        <h4 class="text-lg font-bold text-white">B.Tech in Civil Engineering</h4>
+                        <div class="text-slate-400 text-sm">Matoshree Pratishthan College | 2019 - 2022</div>
+                        <div class="mt-2 text-primary text-sm font-mono">CGPI: 9.03</div>
                     </div>
-
-                     <div class="tech-card p-6 h-fit">
-                        <h3 class="text-lg font-bold mb-4 text-white">Social Impact</h3>
-                        <div class="flex gap-4 overflow-x-auto pb-2">
-                            <div class="min-w-[200px] bg-dark p-3 rounded-lg border border-slate-800">
-                                <i class="fas fa-hands-helping text-emerald-400 mb-2"></i>
-                                <h4 class="text-sm font-bold text-white">Swachh Bharat</h4>
-                                <p class="text-xs text-slate-500">Community cleanup drives.</p>
-                            </div>
-                            <div class="min-w-[200px] bg-dark p-3 rounded-lg border border-slate-800">
-                                <i class="fas fa-utensils text-orange-400 mb-2"></i>
-                                <h4 class="text-sm font-bold text-white">Food Drive</h4>
-                                <p class="text-xs text-slate-500">Distributed food to needy.</p>
-                            </div>
-                        </div>
+                    <div class="relative border-l border-slate-700 pl-6">
+                        <div class="absolute -left-[5px] w-2.5 h-2.5 rounded-full bg-slate-500 mt-2"></div>
+                        <h4 class="text-lg font-bold text-white">Diploma in Civil Engineering</h4>
+                        <div class="text-slate-400 text-sm">MSBTE | 2016 - 2019</div>
+                        <div class="mt-2 text-primary text-sm font-mono">Percentage: 68.67%</div>
                     </div>
                 </div>
 
-                <div class="md:col-span-5 flex flex-col gap-6">
-                    
+                <div class="md:col-span-2 flex flex-col gap-6">
                     <div class="tech-card p-6 h-fit">
                         <h3 class="text-lg font-bold mb-4 flex items-center gap-2 text-white">
                             <i class="fas fa-certificate text-accent"></i> Certifications
@@ -347,27 +361,59 @@
                         </div>
                     </div>
 
-                    <div class="tech-card p-6 h-fit relative group">
-                        <h3 class="text-lg font-bold mb-4 flex items-center gap-2 text-white">
-                            <i class="fas fa-trophy text-yellow-500"></i> Recognition
+                    <div class="tech-card p-6 h-fit">
+                        <h3 class="text-lg font-bold mb-4 text-white">
+                            <i class="fas fa-hands-helping text-emerald-400 mr-2"></i>Social Impact
                         </h3>
-                        
-                        <div class="relative overflow-hidden rounded-lg mb-4">
-                            <div class="absolute inset-0 bg-gradient-to-t from-dark to-transparent opacity-60"></div>
-                             <img src="https://lh3.googleusercontent.com/pw/AP1GczNi2uM6qpnq0jvYg5n2sb_2cqoRKuBXLjpy9gpV_okhgRV6qGsdHB2r6gPPCzi1my4VKE9C9AQLxPfaJQ7_fdvO-UTlfD-eUW35S4r63EyUDFxdSC6ce1ebIozT3TeGgCfONGNYSxV_3RdZfMZ9r_vTeg=w982-h966-s-no-gm?authuser=0" 
-                                 alt="Award" 
-                                 class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-500">
+                        <div class="flex flex-col gap-3">
+                            <div class="bg-dark p-3 rounded-lg border border-slate-800">
+                                <i class="fas fa-hands-helping text-emerald-400 mb-2"></i>
+                                <h4 class="text-sm font-bold text-white">Swachh Bharat</h4>
+                                <p class="text-xs text-slate-500">Community cleanup drives.</p>
+                            </div>
+                            <div class="bg-dark p-3 rounded-lg border border-slate-800">
+                                <i class="fas fa-utensils text-orange-400 mb-2"></i>
+                                <h4 class="text-sm font-bold text-white">Food Drive</h4>
+                                <p class="text-xs text-slate-500">Distributed food to needy.</p>
+                            </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="bg-dark/50 p-3 rounded-lg border border-slate-800 border-l-4 border-l-yellow-500">
+            </div>
+
+            <!-- Bottom row: Recognition spanning full width as 2-column card grid -->
+            <div class="tech-card p-6 h-fit relative group">
+                <h3 class="text-lg font-bold mb-6 flex items-center gap-2 text-white">
+                    <i class="fas fa-trophy text-yellow-500"></i> Recognition
+                </h3>
+                <div class="grid sm:grid-cols-2 gap-4">
+
+                    <div class="bg-dark/50 p-3 rounded-lg border border-slate-800">
+                        <img src="images/innovator_of_the_month.jpeg"
+                             alt="Innovator of the Month"
+                             class="w-full rounded-lg mb-3">
+                        <div class="border-l-4 border-l-yellow-500 pl-3">
                             <h4 class="font-bold text-white text-sm">Innovator of the Month</h4>
-                            <p class="text-xs text-slate-400">Digikore Studios | Aug 2024</p>
-                            <p class="text-xs text-slate-500 mt-1">Awarded for best business idea.</p>
+                            <p class="text-xs text-slate-400">Digikore Studios | Aug 2025</p>
+                            <p class="text-xs text-slate-500 mt-1">Awarded for best business idea and process improvement initiative.</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-dark/50 p-3 rounded-lg border border-slate-800">
+                        <img src="images/employee_of_the_month_feb_2026.jpeg"
+                             alt="Employee of the Month"
+                             class="w-full rounded-lg mb-3">
+                        <div class="border-l-4 border-l-emerald-500 pl-3">
+                            <h4 class="font-bold text-white text-sm">Employee of the Month</h4>
+                            <p class="text-xs text-slate-400">Digikore Studios | Feb 2026</p>
+                            <p class="text-xs text-slate-500 mt-1">Recognized for outstanding contribution, managing three subdepartments at a time like Development, render and IO .</p>
                         </div>
                     </div>
 
                 </div>
             </div>
+
         </section>
 
         <section id="contact" class="text-center pt-12 border-t border-slate-800 reveal">
@@ -380,7 +426,7 @@
                     <i class="fas fa-phone"></i> +91 8888581463
                 </a>
             </div>
-            <p class="text-slate-600 text-sm">&copy; 2025 Venkatesh Pund. Built with Tailwind & <i class="fas fa-heart text-red-500"></i></p>
+            <p class="text-slate-600 text-sm">&copy; 2026 Venkatesh Pund. Built with Tailwind & <i class="fas fa-heart text-red-500"></i></p>
         </section>
 
     </main>
@@ -388,7 +434,7 @@
     <script>
         // --- Typewriter ---
         const textElement = document.getElementById("typewriter");
-        const words = ["IT Support Specialist", "Full Stack Developer", "Automation Expert"];
+        const words = ["Junior Python Developer", "Django Developer", "Full Stack Developer", "Automation Enthusiast"];
         let wordIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
